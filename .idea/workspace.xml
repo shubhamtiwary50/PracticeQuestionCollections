@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20f6c668-7140-49ee-aaf7-689fd8499f5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PracticeQuestion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="20f6c668-7140-49ee-aaf7-689fd8499f5d" name="Changes" comment="Created Book class, defined constructors, to String and getters setters for it. &#10;&#10;Created a BookArrayList Impl class file to create book objects and display sorted details.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MapPractiseDemo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MapPractiseDemo/Question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeQues2/Question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeQues2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeQues2/StudentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeQuestion1/Question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeQuestion1/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookArrayListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeQuestion1/BookArrayListImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2E9SLI3mtFgKcPexXVNRFBgeagv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,10 +42,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Wave 33/Course 5/Sprint 1/mc-1-mobile-service"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BookArrayListImpl">
     <configuration name="BookArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BookArrayList" />
       <module name="PracticeQuestion" />
@@ -50,8 +55,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookArrayListImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeQuestion1.BookArrayListImpl" />
+      <module name="PracticeQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeQuestion1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeQues2.StudentImpl" />
+      <module name="PracticeQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeQues2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookArrayListImpl" />
+        <item itemvalue="Application.StudentImpl" />
         <item itemvalue="Application.BookArrayList" />
       </list>
     </recent_temporary>
@@ -65,6 +98,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662006251428</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created Book class, defined constructors, to String and getters setters for it. &#10;&#10;Created a BookArrayList Impl class file to create book objects and display sorted details.">
+      <created>1662010819538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662010819538</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Book class, defined constructors, to String and getters setters for it. &#10;&#10;Created a BookArrayList Impl class file to create book objects and display sorted details." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Book class, defined constructors, to String and getters setters for it. &#10;&#10;Created a BookArrayList Impl class file to create book objects and display sorted details." />
   </component>
 </project>

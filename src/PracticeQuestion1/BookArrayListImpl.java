@@ -1,3 +1,5 @@
+package PracticeQuestion1;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,7 +8,7 @@ public class BookArrayListImpl {
         List<Book> booklist = new ArrayList<>();
 
         Book book1 = new Book("ABC", "RR Martin", 23456787, 1999.00);
-        Book book2 = new Book("GHI", "JK Rowling", 12312345, 1499.00);
+        Book book2 = new Book("GHIJ", "JK Rowling", 12312345, 1499.00);
         Book book3 = new Book("DEF", "Dan Brown", 345234123, 1699.00);
         booklist.add(book1);
         booklist.add(book2);
@@ -18,7 +20,7 @@ public class BookArrayListImpl {
             System.out.println(element);
         }
         for (int i = 0; i < booklist.size(); i++) {
-            for (int j = 0; j < booklist.size() - 1-i; j++) {
+            for (int j = 0; j < booklist.size() -1; j++) {
                 Book temp = booklist.get(j);
                 booklist.set(j, booklist.get(j + 1));
                 booklist.set(j + 1, temp);
@@ -29,6 +31,5 @@ public class BookArrayListImpl {
             {
                 System.out.println(element);
             }
-
     }
 }

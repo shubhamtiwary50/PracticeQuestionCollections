@@ -1,3 +1,5 @@
+package PracticeQuestion1;
+
 public class Book {
     private String bookName;
     private String author;
@@ -50,7 +52,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "PracticeQuestion1.Book{" +
                 "bookName='" + bookName + '\'' +
                 ", author='" + author + '\'' +
                 ", isbn=" + isbn +
